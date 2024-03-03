@@ -1,1 +1,39 @@
-/* Write your CSS here! */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffcccc, #cc99ff); /**add two shades of colors**/
+    padding: 50px;
+    margin: 8px;
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.left-space {
+    margin-left: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+}
+
+.funParagraph {
+    color: green; /** color is set to green to pass the test**/
+}
+
+#mainHeading {
+    color: red; /**Set text color to red to pass the test**/
+}
+
+.profile-picture {
+    display: block; /*  image is displayed as a block element */
+    margin: 0 auto; /* Centered the image horizontally */
+    width: 200px; 
+    height: auto; 
+    border-radius: 50%; /*  circular border */
+    border: 2px solid #fff; /*  white border around the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* shadow effect */
+}
